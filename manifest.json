@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Gmail Inbox Tracker",
+    "version": "1.0",
+    "description": "Notifies the user when an email from a specific company/person with relevant content arrives.",
+    "permissions": ["storage", "notifications", "identity", "https://mail.google.com/"],
+    "host_permissions": ["https://mail.google.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
