@@ -3,7 +3,7 @@
     "name": "Gmail Inbox Tracker",
     "version": "1.0",
     "description": "Tracks emails from specified companies and notifies the user.",
-    "permissions": ["storage", "notifications", "identity", "gmail.readonly"],
+    "permissions": ["storage", "notifications"],
     "host_permissions": ["https://mail.google.com/*"],
     "background": {
       "service_worker": "background.js"
